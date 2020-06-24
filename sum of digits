@@ -1,0 +1,8 @@
+number=int(input("Enter any number: "))
+s=0
+b=0
+while number>0:
+    b=number%10
+    s=s+b
+    number=number//10
+print(s)
